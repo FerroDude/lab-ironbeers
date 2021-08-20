@@ -5,3 +5,52 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+img {
+  width: 3em;
+}
+
+p {
+  text-align: justify;
+  line-height: 1.2em;
+  padding-top: 1em;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+.content {
+  display: flex;
+  gap: 3em;
+  justify-content: center;
+}
+
+.text {
+  flex-direction: column;
+}
+
+nav ul {
+  display: flex;
+  margin: 2em 0;
+  gap: 2em;
+}
+
+nav a {
+  list-style: none;
+  text-decoration: none;
+}
